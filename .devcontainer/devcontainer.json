@@ -1,0 +1,11 @@
+{
+  "name": "nablaz-reader",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "customizations": {
+    "codespaces": {
+      "repositories": {
+        "cyninzf/nablaz-protocol": { "permissions": { "contents": "read" } }
+      }
+    }
+  }
+}
