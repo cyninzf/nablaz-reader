@@ -1,0 +1,23 @@
+# Node
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+coverage/
+dist/
+
+# Ponder
+.ponder/
+generated/schema.graphql
+
+# Env (RPC URLs live only in the environment)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
